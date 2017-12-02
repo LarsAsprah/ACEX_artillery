@@ -1,0 +1,1 @@
+#include "\z\acex_artillery\addons\artillery_computer\script_component.hpp"
