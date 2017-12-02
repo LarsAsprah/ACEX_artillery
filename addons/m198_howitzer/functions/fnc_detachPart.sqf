@@ -43,5 +43,5 @@ if ((count _emptyPosAGL) != 3) exitWith {
 };
 
 //Spawn the part
-private _partObject = createVehicle [_partClass, _emptyPosAGL, [], 0, ""];
+private _partObject = createVehicle [_partClass, _emptyPosAGL, [], 0, "NONE"];
 _partObject setPosASL (AGLtoASL _emptyPosAGL);

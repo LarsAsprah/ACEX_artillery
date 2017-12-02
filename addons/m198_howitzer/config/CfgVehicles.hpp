@@ -37,8 +37,8 @@ class CfgVehicles {
         {
             class MainTurret: MainTurret
             {
-                animationSourceBody = "";
-                animationSourceGun = "";
+                animationSourceBody = "main_turret";
+                animationSourceGun = "main_gun";
 
                 body = "main_turret";
                 gun = "main_gun";
@@ -54,12 +54,11 @@ class CfgVehicles {
                 gunnergetOutAction = "";
                 weapons[] = {"ACE_155_Howitzer_M198"};
                 elevationMode = 1;
-                initCamElev = 0;
-                minCamElev = -35;
-                maxCamElev = 35;
                 initElev = 0;
                 minTurn = -45;
-                maxTurn = +45;
+                maxTurn = 45;
+                minElev = -16;
+                maxElev = 63;
                 initTurn = 0;
                 cameraDir = "eye";
                 discreteDistance[] = {100,200,300,400,500,700,1000,1600,2000,2400,2800};
@@ -82,8 +81,6 @@ class CfgVehicles {
                     maxFov = 0.14;
                     visionMode[] = {"Normal","NVG"};
                 };
-                minelev = -16;
-                maxelev = +63;
                 magazines[] = {"1Rnd_ACE_155mm_M982","1Rnd_ACE_155mm_M982","1Rnd_ACE_155mm_M982","1Rnd_ACE_155mm_M982","1Rnd_ACE_155mm_M982"};
             };
         };
